@@ -111,8 +111,8 @@ h4 {
             width: 25vw;
             text-align: center;
              @media #{$smartphone, $phone, $smallphone} {
-                width: 100vh;
-             }
+                width: 100%;
+            }
             img {
                 width: 50px;
                 padding: 20px 0;
@@ -542,7 +542,8 @@ h4 {
 
 .our-team {
     text-align: center;
-  	background: url(../images/city_background.jpg);
+  	background-image: url(../images/city_background.jpg);
+  	background-size: cover;
   	h2 {
   		color: $white;
   	}
@@ -568,7 +569,8 @@ h4 {
                     width: 30%;
                 }
                 @media #{$smartphone, $phone, $smallphone} {
-                   width: 30%;
+                   width: 90%;
+                   height: 30%;
                 }
     			img {
     				margin-top: 30px;
@@ -595,7 +597,7 @@ h4 {
                         font-size: 1em;
                     }
                      @media #{$smartphone, $phone, $smallphone} {
-                        font-size: 0.8em;
+                        font-size: 1em;
                     }
   				}
                 p {
