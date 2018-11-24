@@ -18,22 +18,40 @@
 	<!--HEADER-->
 	<header>	
 	<!--NAVBAR -->	
+		<a href="#" class="btn-menu open-menu"><i class="fas fa-bars"></i></a>
 	    <nav class="container_nav">
 			<div class="navbar">   
 				<div class="logo">
 			        <img src="images/logo.png" alt="logo">
 			    </div> 
-		  		
-		  		<ul class="navbar_nav">
-		    		<li><a class="navbar_list" href="#home">Home</a></li>
-		    		<li><a class="navbar_list" href="#about">About us</a></li>
-		    		<li><a class="navbar_list" href="#services">Services</a></li>
-		    		<li><a class="navbar_list" href="#projects">Our projects</a></li>
-		    		<li><a class="navbar_list" href="#team">Our team</a></li>
-		    		<li><a class="navbar_list" href="#clients">Happy clients</a></li>
-		    		<li><a class="navbar_list" href="#price">Price</a></li>
-		    		<li><a class="navbar_list" href="#some">Some facts</a></li>
-		    		<li><a class="navbar_list" href="#contact">Contact us</a></li>
+		  		<ul class="navbar_nav" id="menu">
+		    		<li class="nav_list">
+		    			<a class="navbar_link" href="#home">Home</a>
+		    		</li>
+		    		<li class="nav_list">
+		    			<a class="navbar_link" href="#about">About us</a>
+		    		</li>
+		    		<li class="nav_list">
+		    			<a class="navbar_link" href="#services">Services</a>
+		    		</li>
+		    		<li class="nav_list">
+		    			<a class="navbar_link" href="#projects">Our projects</a>
+		    		</li>
+		    		<li class="nav_list">
+		    			<a class="navbar_link" href="#team">Our team</a>
+		    		</li>
+		    		<li class="nav_list">
+		    			<a class="navbar_link" href="#clients">Happy clients</a>
+		    		</li>
+		    		<li class="nav_list">
+		    			<a class="navbar_link" href="#price">Price</a>
+		    		</li>
+		    		<li class="nav_list">
+		    			<a class="navbar_link" href="#some">Some facts</a>
+		    		</li>
+		    		<li class="nav_list">
+		    			<a class="navbar_link" href="#contact">Contact us</a>
+		    		</li>
 		    	</ul>	
 			</div>
 		</nav>	
@@ -479,7 +497,7 @@
 	<!-- HAPPY CLIENTS -->
 	<section class="container happy" id="clients">
 		<div class="title title-happy">
-			<h1>Happy clients</h1>
+			<h2>Happy clients</h2>
 			<h4>Clients reviwes</h4>
 		</div>
 		<div class="container happy-clients">
@@ -862,8 +880,14 @@
             		</div>
           		</div>	
 			</div>
+			<div class="small_footer">
+				<p> ©AVAX / written by Wanda Kalinowska 2018</p>
+			</div>
 		</div>
-	</footer>	
-	<script type="text/javascript" src="script.js"></script>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+	<script type="text/javascript" src="scripts/script.js"></script>
+	<script type="text/javascript" src="scripts/hamburger.js"></script>
+	
 </body>
 </html>

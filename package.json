@@ -1,0 +1,22 @@
+{
+  "name": "avax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wandakalinowska/on_page_02.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "wand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wandakalinowska/on_page_02/issues"
+  },
+  "homepage": "https://github.com/wandakalinowska/on_page_02#readme"
+}
